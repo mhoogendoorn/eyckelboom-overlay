@@ -54,6 +54,8 @@ src_prepare() {
 
 src_install() {
 	doins -r *
+	# fix exe permissions
+	fperms a+x /usr/{bin,lib/insync}/insync{,-headless}
 
 	# install service menu for kf5 as well
 	if use dolphin ; then
