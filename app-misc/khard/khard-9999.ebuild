@@ -24,9 +24,9 @@ IUSE="zsh-completion"
 
 DEPEND=""
 RDEPEND="${DEPEND}
-	>=dev-misc/vdirsyncer-0.9.0[${PYTHON_USEDEP}]
+	dev-python/vdirsyncer[${PYTHON_USEDEP}]
 	dev-python/configobj[${PYTHON_USEDEP}]
-    dev-python/vobject[${PYTHON_USEDEP}]"
+    >=dev-python/vobject-0.9.0[${PYTHON_USEDEP}]"
 
 DOCS=( AUTHORS README.md misc/khard/khard.conf.example )
 
