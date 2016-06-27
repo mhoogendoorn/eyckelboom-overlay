@@ -24,7 +24,7 @@ IUSE="zsh-completion"
 
 DEPEND=""
 RDEPEND="${DEPEND}
-	dev-misc/vdirsyncer[${PYTHON_USEDEP}]
+	>=dev-misc/vdirsyncer-0.9.0[${PYTHON_USEDEP}]
 	dev-python/configobj[${PYTHON_USEDEP}]
     dev-python/vobject[${PYTHON_USEDEP}]"
 
