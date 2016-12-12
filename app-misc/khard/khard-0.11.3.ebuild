@@ -24,7 +24,7 @@ DEPEND=""
 RDEPEND="${DEPEND}
 	dev-python/vdirsyncer[${PYTHON_USEDEP}]
 	dev-python/configobj[${PYTHON_USEDEP}]
-    dev-python/vobject[${PYTHON_USEDEP}]
+	=dev-python/vobject-0.9.2[${PYTHON_USEDEP}]
 	zsh-completion? ( app-shells/zsh )"
 
 DOCS=( AUTHORS README.md misc/khard/khard.conf.example )
